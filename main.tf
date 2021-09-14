@@ -35,6 +35,7 @@ resource "aws_instance" "ubuntu" {
     Name = var.instance_name
     Env = var.env_name
     AppID = var.app_id
+    Organization = "ZRORG"
   }
 }
 
