@@ -34,6 +34,7 @@ resource "aws_instance" "ubuntu" {
   tags = {
     Name = var.instance_name
     Env = var.env_name
+    AppID = var.app_id
   }
 }
 
