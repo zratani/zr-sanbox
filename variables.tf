@@ -18,4 +18,7 @@ variable "env_name" {
   default     = "PROD"
 }
 
-
+variable "date" {
+  description = "Date"
+  default = "today"
+}  
