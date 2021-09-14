@@ -18,7 +18,7 @@ variable "env_name" {
   default     = "PROD"
 }
 
-variable "date" {
-  description = "Date"
-  default = "today"
-}  
+variable "app_id" {
+  description = "Application ID"
+  default     = "0000"
+} 
